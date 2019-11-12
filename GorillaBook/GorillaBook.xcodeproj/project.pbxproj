@@ -15,6 +15,7 @@
 		C3E7D4D7237A5D1B00988D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E7D4D5237A5D1B00988D9B /* LaunchScreen.storyboard */; };
 		C3E7D4E4237A605200988D9B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E3237A605200988D9B /* NetworkManager.swift */; };
 		C3E7D4E6237A622B00988D9B /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E5237A622B00988D9B /* Feed.swift */; };
+		C3E7D4E8237A6DA600988D9B /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E7237A6DA600988D9B /* CreatePostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C3E7D4D8237A5D1B00988D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E7D4E3237A605200988D9B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C3E7D4E5237A622B00988D9B /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		C3E7D4E7237A6DA600988D9B /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				C3E7D4CE237A5D1200988D9B /* ViewController.swift */,
+				C3E7D4E7237A6DA600988D9B /* CreatePostViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				C3E7D4E6237A622B00988D9B /* Feed.swift in Sources */,
 				C3E7D4CF237A5D1200988D9B /* ViewController.swift in Sources */,
 				C3E7D4CB237A5D1200988D9B /* AppDelegate.swift in Sources */,
+				C3E7D4E8237A6DA600988D9B /* CreatePostViewController.swift in Sources */,
 				C3E7D4CD237A5D1200988D9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
