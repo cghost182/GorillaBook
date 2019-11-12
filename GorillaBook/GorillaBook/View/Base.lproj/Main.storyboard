@@ -141,6 +141,13 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xp5-Ce-Fu9">
+                                <rect key="frame" x="20" y="356" width="374" height="200"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="iCK-F1-qJo"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -148,11 +155,14 @@
                             <constraint firstItem="8v6-8b-gHc" firstAttribute="trailing" secondItem="uup-xb-bYd" secondAttribute="trailing" constant="20" id="AMK-rm-5Gu"/>
                             <constraint firstItem="8v6-8b-gHc" firstAttribute="trailing" secondItem="iZB-X3-QAK" secondAttribute="trailing" constant="20" id="C9T-7s-BSU"/>
                             <constraint firstItem="Hru-nu-Mlc" firstAttribute="top" secondItem="uup-xb-bYd" secondAttribute="bottom" constant="2" id="IDo-N7-AIP"/>
+                            <constraint firstItem="xp5-Ce-Fu9" firstAttribute="leading" secondItem="8v6-8b-gHc" secondAttribute="leading" constant="20" id="Jd5-Fu-ngM"/>
                             <constraint firstItem="uup-xb-bYd" firstAttribute="top" secondItem="iZB-X3-QAK" secondAttribute="bottom" constant="2" id="LjS-hC-ecv"/>
                             <constraint firstItem="8v6-8b-gHc" firstAttribute="trailing" secondItem="Hru-nu-Mlc" secondAttribute="trailing" constant="20" id="OL2-p0-w5p"/>
+                            <constraint firstItem="xp5-Ce-Fu9" firstAttribute="top" secondItem="Hru-nu-Mlc" secondAttribute="bottom" constant="2" id="Uad-Em-wcT"/>
                             <constraint firstItem="Hru-nu-Mlc" firstAttribute="leading" secondItem="8v6-8b-gHc" secondAttribute="leading" constant="20" id="YFp-oU-M6m"/>
                             <constraint firstItem="uup-xb-bYd" firstAttribute="leading" secondItem="8v6-8b-gHc" secondAttribute="leading" constant="20" id="YWw-3S-i0b"/>
                             <constraint firstItem="iZB-X3-QAK" firstAttribute="top" secondItem="8v6-8b-gHc" secondAttribute="top" constant="50" id="ghe-Uh-mGf"/>
+                            <constraint firstItem="8v6-8b-gHc" firstAttribute="trailing" secondItem="xp5-Ce-Fu9" secondAttribute="trailing" constant="20" id="jLi-gZ-EPF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8v6-8b-gHc"/>
                     </view>
@@ -164,7 +174,9 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="charactersCounter" destination="Hru-nu-Mlc" id="ocl-oF-Ncg"/>
                         <outlet property="postTxt" destination="uup-xb-bYd" id="SVM-t7-3Gh"/>
+                        <outlet property="uploadImage" destination="xp5-Ce-Fu9" id="g7t-ix-Djq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSz-NT-umw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
