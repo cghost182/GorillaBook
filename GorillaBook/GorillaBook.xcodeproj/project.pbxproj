@@ -16,6 +16,8 @@
 		C3E7D4E4237A605200988D9B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E3237A605200988D9B /* NetworkManager.swift */; };
 		C3E7D4E6237A622B00988D9B /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E5237A622B00988D9B /* Feed.swift */; };
 		C3E7D4E8237A6DA600988D9B /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E7237A6DA600988D9B /* CreatePostViewController.swift */; };
+		C3E7D4EB237A735100988D9B /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E7D4E9237A735100988D9B /* FeedTableViewCell.swift */; };
+		C3E7D4EC237A735100988D9B /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E7D4EA237A735100988D9B /* FeedTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C3E7D4E3237A605200988D9B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C3E7D4E5237A622B00988D9B /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		C3E7D4E7237A6DA600988D9B /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		C3E7D4E9237A735100988D9B /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		C3E7D4EA237A735100988D9B /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				C3E7D4D0237A5D1200988D9B /* Main.storyboard */,
 				C3E7D4D5237A5D1B00988D9B /* LaunchScreen.storyboard */,
 				C3E7D4D3237A5D1B00988D9B /* Assets.xcassets */,
+				C3E7D4EA237A735100988D9B /* FeedTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			children = (
 				C3E7D4CE237A5D1200988D9B /* ViewController.swift */,
 				C3E7D4E7237A6DA600988D9B /* CreatePostViewController.swift */,
+				C3E7D4E9237A735100988D9B /* FeedTableViewCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E7D4D7237A5D1B00988D9B /* LaunchScreen.storyboard in Resources */,
+				C3E7D4EC237A735100988D9B /* FeedTableViewCell.xib in Resources */,
 				C3E7D4D4237A5D1B00988D9B /* Assets.xcassets in Resources */,
 				C3E7D4D2237A5D1200988D9B /* Main.storyboard in Resources */,
 			);
@@ -189,6 +196,7 @@
 			files = (
 				C3E7D4E4237A605200988D9B /* NetworkManager.swift in Sources */,
 				C3E7D4E6237A622B00988D9B /* Feed.swift in Sources */,
+				C3E7D4EB237A735100988D9B /* FeedTableViewCell.swift in Sources */,
 				C3E7D4CF237A5D1200988D9B /* ViewController.swift in Sources */,
 				C3E7D4CB237A5D1200988D9B /* AppDelegate.swift in Sources */,
 				C3E7D4E8237A6DA600988D9B /* CreatePostViewController.swift in Sources */,
